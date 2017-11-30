@@ -1,6 +1,6 @@
-﻿<?php 
+﻿<?php
 	$errors = '';
-	$myemail = 'user@domain.com';
+	$myemail = 'alejandro@idetekt.com';
 	if(empty($_POST['name'])  ||
 	   empty($_POST['email']) ||
 	   empty($_POST['message']))
@@ -13,7 +13,7 @@
 	$message = $_POST['message'];
 
 	if (!eregi(
-	"^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$", 
+	"^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$",
 	$email))
 	{
 	$errors .= "\n Error: Invalid Email Address";
