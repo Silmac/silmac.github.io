@@ -297,7 +297,7 @@ fieldset {
     z-index: 1;
 }
 .single-slide-bg:after {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.05);
     position: absolute;
     height: 100%;
     width: 100%;
